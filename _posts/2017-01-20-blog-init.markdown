@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "Blog init"
+date:   2017-01-20 00:50:30 -0300
+categories: random
+---
+Hello world
+
+## Ruby:
+{% highlight ruby %}
+def print_hello(name)
+  puts "Hello, #{name}!"
+end
+print_hello('World')
+#=> prints 'Hello, World!' to STDOUT.
+{% endhighlight %}
+
+
+## Terminal:
+{% highlight terminal %}
+echo 'Hello World!'
+{% endhighlight %}
+
+## Shell:
+{% highlight shell %}
+echo 'Hello World!'
+{% endhighlight %}
+
+## Ruby with line numbers: linenos
+
+{% highlight ruby linenos %}
+def print_hello(name)
+  puts "Hello, #{name}!"
+end
+{% endhighlight %}
+
+## A gist
+{% gist parkr/931c1c8d465a04042403 %}
+
+
+## Others
+
+
+Check out my twitter [Walter's Twitter][walter-twitter].
+
+Check out my twitter in a new tab: [Walter's Twitter][walter-twitter]{:target="_blank"}
+
+[Check out this same post]({{ site.baseurl }}{% link _posts/2017-01-20-blog-init.markdown %})
+
+[Check out this same post 2]({{ site.baseurl }}{% post_url 2017-01-20-blog-init %})
+
+
+
+That's for now, need to test some other stuff though.
+
+[walter-twitter]: http://twitter.com/wrfarina
