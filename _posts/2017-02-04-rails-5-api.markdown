@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "Rails 5 API"
-date:   2017-01-22 00:50:30 -0300
-categories: random
+date:   2017-02-04 01:46:30 -0300
+categories: rails development tutorial api rails-5
 ---
-This how-to guide aims to help you get started the right way using Rails 5 to build the perfect API. Thanks to the new rails-api gem that ships as part of the Rails 5 core, Rails is now an ideal candidate for building streamlined APIs quickly and easily.
 
-Until now, arguably the best option for creating APIs in Ruby has been Grape, and while Grape is still a brilliant option (especially if you like to DIY), there are some great advantages to using Rails 5 in API mode, such as; ActiveRecord by default, a strong developer community, and having the asset pipeline and front end features available should you need them as your project evolves.
+This guide will let you with a running API using Rails 5 with Rails API-only project with authentication, serializers, CORS, versioned API, Rate Limiting and Throttling. All of it running on Heroku.
 
 
 # Installing Rails 5
